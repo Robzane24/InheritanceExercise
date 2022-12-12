@@ -6,6 +6,7 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+
             // TODO Be sure to follow best practice when creating your classes
 
             // Create a class Animal
@@ -29,11 +30,23 @@ namespace Inheritance
              * Creatively display the class member values 
              */
 
+            var myBird = new Bird();
+            myBird.canFly = true;
+            myBird.wingCount = 2;
+            myBird.willMigrate = true;
+            myBird.hasBeak = true; 
+
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
+
+            var myReptile = new Reptile();
+            myReptile.isColdBlooded = true;
+            myReptile.isScaly = true;
+            myReptile.habitat = "desert";
+            myReptile.canGrowTail = true;
         }
     }
 }
